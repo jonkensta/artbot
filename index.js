@@ -143,6 +143,8 @@ bot.on('message', (msg) => {
     return;
   }
 
+    // test change
+
   // Handle special info questions that ArtBot knows how to answer.
   const artBotID = bot.user.id;
   smartBotResponse(msgContentLowercase, msgAuthor, artBotID, channelID).then((smartResponse) => {
